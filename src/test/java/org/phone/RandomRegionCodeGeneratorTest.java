@@ -22,7 +22,7 @@ public class RandomRegionCodeGeneratorTest {
     public void genNumber(){
         //Get all regions
         Set<String> allRegionsSet = phoneNumberUtil.getSupportedRegions();
-        //Place the regions in a list
+        //Place the regions in a list for easier access
         List<String> allRegions = new ArrayList<>();
         allRegions.addAll(allRegionsSet);
 
